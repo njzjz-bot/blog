@@ -25,7 +25,7 @@ The history of the DeepModeling communityThe &quot;DeepModeling Community&quot; 
 The short-term plan and long-term vision of the DeepModeling communityIn the short term, developers in the DeepModeling community will focus on  atomic-scale simulation methods and tools. This includes solving the many-body Schrödinger equation, electronic structure calculation, molecular dynamics simulation, and coarse-grained molecular dynamics simulation. This also includes tasks such as data generation, model training, high-performance optimization, etc. In addition, it includes different workflows and management tools, as well as computing power scheduling tools for different systems, different scenarios, and different purposes. 
 It should be pointed out that the combination of physical modeling and machine learning often fundamentally changes the implementation logic of a piece of software. Therefore, the new infrastructure will not be settled once and for all, but will be gradually improved through an iterative process and  upgrades from time to time.
 In the long run, the DeepModeling community is committed to combining physical models at all scales with machine learning methods, using the most cutting-edge computing platforms to solve the most challenging scientific and technological problems faced by the human society.
-How can you contribute? If you want to contribute to an existing project in the DeepModeling community, please just do so or contactthe corresponding developer directly; if you want to open a new project in the DeepModeling community, or if you want the DeepModeling community to help develop your project, just contact &#99;&#111;&#x6e;&#x74;&#97;&#x63;&#116;&#64;&#x64;&#x65;&#101;&#112;&#x6d;&#111;&#x64;&#101;&#108;&#x69;&#110;&#103;&#46;&#111;&#114;&#103;.
+How can you contribute? If you want to contribute to an existing project in the DeepModeling community, please just do so or contactthe corresponding developer directly; if you want to open a new project in the DeepModeling community, or if you want the DeepModeling community to help develop your project, just contact &#x63;&#x6f;&#110;&#116;&#x61;&#x63;&#116;&#x40;&#x64;&#101;&#101;&#112;&#109;&#x6f;&#x64;&#101;&#108;&#x69;&#110;&#x67;&#x2e;&#x6f;&#114;&#x67;.
 If you are a programmer who loves science and is attracted by the future scientific computing platform built by the DeepModeling community, you can contribute not only through new algorithms, but also code development specifications, document writing specifications, community databases, task scheduling, workflow management and other tools.  In addition, you can contribute to code architecture design and high-performance optimization tasks in the DeepModeling community. People in the field of scientific computing will greatly appreciate your expertise and contribution.
 If you are a hardcore developer familiar with topics such as electronic structure calculations, molecular dynamics, and finite element methods, the DeepModeling community will be your place to showcase your talents. The addition of machine learning components requires us to rethink about architecture design, each specific implementation for the tasks mentioned above and high-performance optimization. You will become important bridges that connect other developers, contributors, and users in different areas.
 If you have only used some basic scientific software and have worked on some post-processing scripts, the DeepModeling community also needs you. Try to ask questions and communicate on github&#x2F;gitee and other communication platforms, try to give opinions, and try to fork, commit, pr... Your little by little contribution will make the DeepModeling community better and better, and the DeepModeling community will be very grateful for such contributions.
@@ -33,6 +33,49 @@ Even if you are just a bystander, if you support the concept of the DeepModeling
 Final remarksDespite the tremendous advances in AI and computing power, the scientific computing community is largely embedded in an old-fashioned culture. Many of the most important tasks rely on legacy codes. The core algorithms used in many commercial software have been outdated. The self-sufficient style of work is similar to that of the agricultural agesresulting in poor efficiency. It is only in recent years that some promising open-source communities have emerged. However, these communities are often aimed at specific tools for specific scales, and are often maintained by specific academic research groups. They face serious challenges in terms of continuous development and improved user experience.
 The DeepModeling project promises to change all that. 
 The combination of machine learning and physical modeling calls for a new paradigm, the open-source community paradigm. Such a paradigm has long been embraced in the computer and electronics industry, with Linux and Andriod being the very well-known examples. In this sense, what the DeepModeling project does is to borrow these ideas and use them for scientific computing. For people in computational science and engineering, efficient and reusable modeling tools that can be continuously improved will free researchers from the plight of no model or with only ad hoc models. For those who work on machine learning, the world of physical models will provide a relatively new and surely vast playground. Working together as an open-source community will make our work more productive, up to date, reliable, and transparent. The spirit of close collaboration, of respect and building on each other’s work will surely inspire more and more people to join the cause of advancing computing for the benefit of the human society. This is an exciting opportunity. This is the future of scientific computing!
+]]></content></entry><entry><title>The OpenLAM Initiative</title><url>/blog/openlam/</url><content><![CDATA[Peter Thiel once said, &quot;We wanted flying cars, instead we got 140 characters (Twitter).&quot; Over the past decade, we have made great strides at the bit level (internet), but progress at the atomic level (cutting-edge technology) has been relatively slow.
+The accumulation of linguistic data has propelled the development of machine learning and ultimately led to the emergence of Large Language Models (LLMs). With the push from AI, progress at the atomic level is also accelerating. Methods like Deep Potential, by learning quantum mechanical data, have increased the space-time scale of microscopic simulations by several orders of magnitude and have made significant progress in fields like drug design, material design, and chemical engineering.
+The accumulation of quantum mechanical data is gradually covering the entire periodic table, and the Deep Potential team has also begun the practice of the DPA pre-training model. Analogous to the progress of LLMs, we are on the eve of the emergence of a general Large Atom Model (LAM). At the same time, we believe that open-source and openness will play an increasingly important role in the development of LAM.
+Against this backdrop, the core developer team of Deep Potential is launching the OpenLAM Initiative to the community. This plan is still in the draft stage and is set to officially start on January 1, 2024. We warmly and openly welcome opinions and support from all parties.
+The slogan for OpenLAM is &quot;Conquer the Periodic Table!&quot; We hope to provide a new infrastructure for microscale scientific research and drive the transformation of microscale industrial design in fields such as materials, energy, and biopharmaceuticals by establishing an open-source ecosystem around large microscale models. Relevant models, data, and workflows will be consolidated around the AIS Square; related software development will take place in the DeepModeling open-source community. At the same time, we welcome open interaction from different communities in model development, data sharing, evaluation, and testing.
+OpenLAM&#39;s goals for the next three years are: In 2024, to effectively cover the periodic table with first-principles data and achieve a universal property learning capability; in 2025, to combine large-scale experimental characterization data and literature data to achieve a universal cross-modal capability; and in 2026, to realize a target-oriented atomic scale universal generation and planning capability. Ultimately, within 5-10 years, we aim to achieve &quot;Large Atom Embodied Intelligence&quot; for atomic-scale intelligent scientific discovery and synthetic design.
+OpenLAM&#39;s specific plans for 2024 include:
+
+Model Update and Evaluation Report Release:
+
+Starting from January 1, 2024, driven by the Deep Potential team, with participation from all LAM developers welcomed.
+Every three months, a major model version update will take place, with updates that may include model architecture, related data, training strategies, and evaluation test criteria.
+
+
+AIS Cup Competition:
+
+Initiated by the Deep Potential team and supported by the Bohrium Cloud Platform, starting in March 2024 and concluding at the end of the year;
+The goal is to promote the creation of a benchmarking system focused on several application-oriented metrics.
+
+
+Domain Data Contribution:
+
+Seeking collaboration with domain developers to establish &quot;LAM-ready&quot; datasets for pre-training and evaluation.
+Domain datasets for iterative training of the latest models will be updated every three months.
+
+
+Domain Application and Evaluation Workflow Contribution:
+
+The domain application and evaluation workflows will be updated and released every three months.
+
+
+Education and Training:
+
+Planning a series of educational and training events aimed at LAM developers, domain developers, and users to encourage advancement in the field.
+
+
+How to Contact Us:
+
+Direct discussions are encouraged in the DeepModeling community.
+For more complex inquiries, please contact the project lead, Han Wang (王涵, wang_han@iapcm.ac.cn), Linfeng Zhang (张林峰, zhanglf@aisi.ac.cn), for the new future of Science!
+
+
+
 ]]></content></entry><entry><title>DP Tutorial 1: How to Setup a DeePMD-kit Training within 5 Minutes?</title><url>/blog/tutorial1/</url><content><![CDATA[DeePMD-kit is a software to implement Deep Potential. There is a lot of information on the Internet, but there are not so many tutorials for the new hand, and the official guide is too long. Today, I&#39;ll take you 5 minutes to get started with DeePMD-kit. 
 Let&#39;s take a look at the training process of DeePMD-kit:
 
